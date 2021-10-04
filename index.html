@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accent Property</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <fieldset id="main-data">
+        <legend>New Property</legend>
+        <div id="parking">
+          <label> Do you know the accent css property? </label>
+          <div class="radio-answer">
+            <input
+              type="radio"
+              name="park"
+              id="parkYes"
+              value="yes"
+              checked=""
+            />
+            <label for="parkYes"> Yes </label>
+            <input type="radio" name="park" id="parkNo" value="no" />
+            <label for="parkNo"> No </label>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Elements</legend>
+        <div>
+          <label> Elements in which it can change the colours of: </label>
+          <div>
+            <input type="checkbox" checked />
+            <label for="checkbox"> input </label>
+          </div>
+          <div>
+            <input type="checkbox" checked />
+            <label for="checkbox"> checkbox </label>
+          </div>
+          <div>
+            <input type="checkbox" checked />
+            <label for="radio"> radio </label>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Did you like it?</legend>
+        <div class="slidecontainer">
+          <input
+            type="range"
+            min="1"
+            max="100"
+            value="50"
+            class="slider"
+            id="myRange"
+          />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
